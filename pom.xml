@@ -1,0 +1,125 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>APIJavaHTTPClient</groupId>
+  <artifactId>APIJavaHTTPClient</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+<dependency>
+    <groupId>org.apache.httpcomponents</groupId>
+    <artifactId>httpclient</artifactId>
+    <version>4.5.10</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.httpcomponents</groupId>
+    <artifactId>httpcore</artifactId>
+    <version>4.4.12</version>
+</dependency>
+<dependency>
+    <groupId>org.json</groupId>
+    <artifactId>json</artifactId>
+    <version>20160212</version>
+</dependency>
+
+
+<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>2.6.3</version>
+		</dependency>
+   <dependency>
+      <groupId>com.googlecode.json-simple</groupId>
+      <artifactId>json-simple</artifactId>
+      <version>1.1.1</version>
+   </dependency>
+   
+    <dependency>
+    <groupId>com.google.inject</groupId>
+    <artifactId>guice</artifactId>
+    <version>4.1.0</version>
+    <classifier>no_aop</classifier>
+    <scope>compile</scope>
+</dependency>
+  <dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>3.141.59</version>
+</dependency>
+<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>4.1.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>4.1.1</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.6</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml-schemas</artifactId>
+			<version>4.1.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-scratchpad</artifactId>
+			<version>4.1.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>openxml4j</artifactId>
+			<version>1.0-beta</version>
+		</dependency>
+		
+<dependency>
+    <groupId>org.apache.pdfbox</groupId>
+    <artifactId>pdfbox</artifactId>
+    <version>2.0.16</version>
+</dependency>
+
+
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>6.9.10</version>
+    <scope>test</scope>
+</dependency>
+<dependency>
+    <groupId>com.google.guava</groupId>
+    <artifactId>guava</artifactId>
+    <version>22.0</version>
+</dependency>
+ <dependency>
+     <groupId>com.google.api-client</groupId>
+     <artifactId>google-api-client-appengine</artifactId>
+     <version>1.23.0</version>
+     <exclusions>
+        <exclusion>
+          <groupId>com.google.guava</groupId>
+          <artifactId>guava-jdk5</artifactId>
+       </exclusion>
+    </exclusions>
+ </dependency>
+
+		
+<dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>4.13</version>
+    <scope>test</scope>
+</dependency>
+		
+</dependencies>
+
+  
+  
+</project>
