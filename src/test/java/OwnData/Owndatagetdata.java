@@ -26,6 +26,7 @@ public class Owndatagetdata {
 		
 		//String user=object.get("hello").toString();
 		System.out.println(user);
+		System.out.println("own data created");
 	}
 
 }
